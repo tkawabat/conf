@@ -55,6 +55,7 @@ $ git config --global user.email tosiki.kawabata@gmail.com
 * .vimrcかきかき
 
 ## tmux
+* https://qiita.com/makisyu/items/d6b32d88cdd97b01a00f
 
 ## zsh
 * install

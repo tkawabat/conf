@@ -1,10 +1,12 @@
 #!/bin/bash
 
-for f in .??*
+for F in .??*
 do
-    [[ "$f" == ".git" ]] && continue
-    [[ "$f" == ".gitignore" ]] && continue
-    [[ "$f" == ".DS_Store" ]] && continue
+    [[ "$F" == ".git" ]] && continue
+    [[ "$F" == ".gitignore" ]] && continue
+    [[ "$F" == ".DS_Store" ]] && continue
 
-    echo "$f"
+    echo "$F"
+    ln -s `pwd`/$F ~/$F
+    exit
 done
